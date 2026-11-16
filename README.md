@@ -35,4 +35,10 @@ Tất cả strategy dùng UTF-8 tường minh để kích thước byte nhất q
 
 `DocumentExporterTest` gồm 8 test: thiếu strategy và thông báo lỗi chính xác; CSV + TAR; định dạng không hỗ trợ; không thông báo khi thiếu strategy; thông báo đúng một lần và đúng kích thước; đổi ZIP/RAR và đọc DOCX; loại file null; thứ tự observer và không thông báo khi định dạng không hỗ trợ.
 
-Sau khi chạy `mvn test`, báo cáo nằm trong `target/surefire-reports`. Khi nộp bài, chụp kết quả test trong IntelliJ hoặc terminal theo yêu cầu giảng viên.
+## Kết quả chạy
+
+### Kiểm thử JUnit 5
+![8 test thành công](screenshots/test-result.png)
+
+### Chạy chương trình
+![Xuất PDF với ZIP và CSV với TAR](screenshots/demo-result.png)
